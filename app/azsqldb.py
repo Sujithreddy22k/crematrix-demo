@@ -88,7 +88,7 @@ def get_schema_representation_residential():
 
 
 # This will create the table and insert 100 rows when you run sql_db.py
-if __name__ == "__main__":
+if __name__ == "__main__":...
 
     # Setting up the financial table
     # setup_financial_table()
@@ -97,4 +97,4 @@ if __name__ == "__main__":
     # print(query_database("SELECT * FROM finances"))
 
     # Getting the schema representation
-    print(get_schema_representation_finances())
+    
