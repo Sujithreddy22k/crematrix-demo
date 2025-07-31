@@ -122,7 +122,7 @@ try:
 
     sql_results = query_database(query, conn)
     
-    st.write(response)
+    
     st.write(sql_results)
 
     narrative = get_completion_from_messages(
@@ -146,5 +146,5 @@ try:
 
 
 except Exception as e:
-    st.write(f"An error occurred: {e}")
+    # st.write(f"An error occurred: {e}")
     pass
