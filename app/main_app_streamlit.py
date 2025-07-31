@@ -72,7 +72,7 @@ with st.sidebar:
         width=250,
     )
 
-st.title("Finance Analysis")
+st.title("Crematrix POC Analysis")
 
 user_message = st.text_input("Enter your message:")
 
