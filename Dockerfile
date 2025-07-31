@@ -11,10 +11,10 @@ RUN ACCEPT_EULA=Y apt-get install -y msodbcsql17 unixodbc-dev
 
 WORKDIR /app
 
-ADD azsqldb.py /app
-ADD azure_openai.py /app
-ADD prompts.py /app
-ADD main_app_streamlit.py /app
+ADD app/azsqldb.py /app
+ADD app/azure_openai.py /app
+ADD app/prompts.py /app
+ADD app/main_app_streamlit.py /app
 ADD requirements.txt /app
 
 
@@ -26,4 +26,4 @@ EXPOSE 80
 
 # ENTRYPOINT [ "streamlit", "run" ]
 
-CMD [ "streamlit", "run", "main_app_streamlit.py"]
+CMD [ "streamlit", "run", "app/main_app_streamlit.py"]
