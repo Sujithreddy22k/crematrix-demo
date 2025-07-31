@@ -1,4 +1,4 @@
-FROM python:3.11-slim
+FROM python:3.13
 
 
 RUN apt-get update
@@ -22,8 +22,8 @@ ADD requirements.txt /app
 RUN pip install -r requirements.txt 
 RUN pip install pyodbc
 
-EXPOSE 80
+EXPOSE 8000
 
 # ENTRYPOINT [ "streamlit", "run" ]
 
-CMD [ "streamlit", "run", "app/main_app_streamlit.py"]
+CMD ["python", "-m", "streamlit", "run", "main_app_streamlit.py", "--server.port", "8000", "--server.address", "0.0.0.0"]
