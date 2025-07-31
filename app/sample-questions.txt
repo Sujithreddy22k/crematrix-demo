@@ -1,0 +1,13 @@
+1. what is the current selling price of <x> project /<y> micromarket/ <z> city ?
+2. Which are the best selling projects in terms of value/revenue/ no of unit sold/ area of unit sold for x year/ from x year?
+3. What is the age distribution of buyers in <x> project/ <y> micromarket / <z> city?
+4. Where are the buyers coming from in project <x>?
+5. Which are the top 10 developers in <y> micromarket / <z> city in terms of value or revenue / no of units sold/ area of units sold for <x> year/ from <x> year?
+6. Top 10 Developers in terms of market share in terms of value or revenue / no of units sold for <x> year/ from <x> year?
+7. most expensive project in <x> micromarket/ <y> city in terms of PSF/ average ticket size.
+8. recent big launches in the micromarket
+9. no of units sold / value of units sold / area of units sold / no of units launched in a project/ micromarket / city in last <x> years/ from <x> year / in <x> year.
+10. What is the weighted average PSf of <x> project/ <y> micromarket / <z> city in last <x> years/ from <x> year / in <x> year.
+11. Top 5 community in a project/ micromarket / city.
+12. what is the quarterly/yearly sale velocity in a <x> project/ <y> micromarket / <z> city?
+13. what is the quarterly/yearly no of units launched in a <x> project/ <y> micromarket / <z> city?
