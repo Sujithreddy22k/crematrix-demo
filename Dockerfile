@@ -22,8 +22,8 @@ ADD requirements.txt /app
 RUN pip install -r requirements.txt 
 RUN pip install pyodbc
 
-EXPOSE 8000
+EXPOSE 8080
 
 # ENTRYPOINT [ "streamlit", "run" ]
 
-CMD ["python", "-m", "streamlit", "run", "main_app_streamlit.py", "--server.port", "8000", "--server.address", "0.0.0.0"]
+CMD ["python", "-m", "streamlit", "run", "main_app_streamlit.py", "--server.port", "8080", "--server.address", "0.0.0.0"]
